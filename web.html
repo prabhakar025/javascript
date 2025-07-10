@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Bites</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff8f0;
+      color: #333;
+    }
+    header {
+      background-color: #ff6347;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    nav a:hover {
+      background: #ff6347;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?restaurant,food') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2.5em;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .content {
+      padding: 40px;
+      text-align: center;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .menu-item {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+    }
+    .menu-item img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Delicious Bites</h1>
+    <p>Where Taste Meets The Myth</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section class="hero">
+    <div>Welcome to Delicious Bites</div>
+  </section>
+  <section class="content" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <img src="https://source.unsplash.com/400x300/?pizza,cheese" alt="Pizza">
+        <h3>Margherita Pizza</h3>
+        <p>Classic delight with 100% real mozzarella cheese</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://source.unsplash.com/400x300/?burger,veg" alt="Burger">
+        <h3>Veggie Burger</h3>
+        <p>Loaded with fresh veggies and spicy sauce</p>
+      </div>
+      <div class="menu-item">
+        <img src="https://source.unsplash.com/400x300/?pasta,white-sauce" alt="Pasta">
+        <h3>Creamy Pasta</h3>
+        <p>Delicious creamy white sauce pasta</p>
+      </div>
+    </div>
+  </section>
+  <section class="content" id="about">
+    <h2>About Us</h2>
+    <p>Delicious Bites has been serving amazing dishes since 2000. We focus on quality ingredients, traditional recipes, and a warm atmosphere.</p>
+  </section>
+  <section class="content" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@deliciousbites.com</p>
+    <p>Phone: +91-9876543210</p>
+  </section>
+  <footer>
+    &copy; 2025 Delicious Bites. All rights reserved.
+  </footer>
+  <script>
+    // Example JS for menu highlight or interactivity
+    const navLinks = document.querySelectorAll('nav a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.forEach(l => l.style.background = '');
+        link.style.background = '#ff6347';
+      });
+    });
+  </script>
+</body>
+</html>
