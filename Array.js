@@ -6,5 +6,6 @@ const animal=['cow', 'dog', 'cat', 'rat']
 
 //concat
 evennumber.concat(animal)
+animal.concat(evennumber)
 const AddedArray=evennumber.concat(animal)
 const AddedArray2=animal.concat(evennumber)
