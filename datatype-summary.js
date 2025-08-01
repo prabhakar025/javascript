@@ -9,7 +9,7 @@ let userEmail;
 const id=Symbol('123')
 const anotherId=Symbol('123')
 console.log(id==anotherId)
-const BigNumber=123242324
+const BigNumber=123242324n
 
 //2. Refrence(Non primitive data type)
 // Array,object,function
