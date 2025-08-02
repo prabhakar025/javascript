@@ -1,51 +1,51 @@
-// //  let a=10
-// //  let b=6
-// //  let sum=a+b
-// //  if (sum%8==0) {
-// //     console.log("Div by 8")
-// //  }
-// //  else{
-// //     console.log("Not div by 8")
-// //  }
-// //  if (sum%2==0) {
-// //     console.log("even")
-// // }
-// // else{
-// //     console.log("odd")
-// // }
+ let a=10
+ let b=6
+ let sum=a+b
+ if (sum%8==0) {
+    console.log("Div by 8")
+ }
+ else{
+    console.log("Not div by 8")
+ }
+ if (sum%2==0) {
+    console.log("even")
+}
+else{
+    console.log("odd")
+}
 
 
-// // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-// // let n=100
-// // if (n>79) {
-// //     console.log("A")
-// // }
-// // else{
-// //     console.log("B")
-// // }
+// let n=100
+// if (n>79) {
+//     console.log("A")
+// }
+// else{
+//     console.log("B")
+// }
 
 
 
-// // ++++++++++++++++++++++++++++++++++++++++++++++++++
+// ++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
-// // let p=100
-// // if (p<50) {
-// //     console.log("A")
-// // }
-// // else if (p>70) {
-// //   console.log("B")  
-// // }
-// // if (p>70) {
-// //   console.log("C")  
-// // }
-// // if (p<40) {
-// //     console.log("D")
-// // }
+// let p=100
+// if (p<50) {
+//     console.log("A")
+// }
+// else if (p>70) {
+//   console.log("B")  
+// }
+// if (p>70) {
+//   console.log("C")  
+// }
+// if (p<40) {
+//     console.log("D")
+// }
 
-// // +++++++++++++++++++++++++++++++++++++++++++
+// +++++++++++++++++++++++++++++++++++++++++++
 
 
 // // let n=15
