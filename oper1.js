@@ -21,10 +21,10 @@
 // console.log(a)
 // console.log(z)
 
-// let a=10
-// let z= a++ + a+1 - ++a + --a 
-// console.log(a)
-// console.log(z)
+let a=10
+let z= a++ + a+1 - ++a + --a 
+console.log(a)
+console.log(z)
 
 // let x=10
 // x=x+1  //11
