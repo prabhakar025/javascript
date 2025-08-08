@@ -1,14 +1,14 @@
 //check if a number is even and odd
 
-// let n=20
-// if (n%2==0) {
-//     console.log("Even")
-// }
-// else{
-//     console.log("Odd")
-// }
+let n=20
+if (n%2==0) {
+    console.log("Even")
+}
+else{
+    console.log("Odd")
+}
 
-//let n=20
+let n=20
 
 let signal="red" //yellow,green
 let choice=signal//3
