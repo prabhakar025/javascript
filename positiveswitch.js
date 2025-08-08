@@ -1,3 +1,5 @@
+// positive and negative
+
 let n=-100
 let choice=n>0//unlimated,true(+ve),,false(-ve or zero)
 switch (choice) {
@@ -7,3 +9,4 @@ console.log("+ve")
 case false:
     console.log("-ve or zero")
 }
+
