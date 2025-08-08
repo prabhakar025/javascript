@@ -1,3 +1,4 @@
+// even odd switch case
 let n = 56
 let choice = n%2
 switch (choice) {
