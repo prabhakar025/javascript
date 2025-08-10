@@ -1,14 +1,14 @@
-print all number from 1-10
+//print all number from 1-10
 
-print all number  from 10-1
+//print all number  from 10-1
 
-print all odd number from 1-10
+//print all odd number from 1-10
 
-count all odd number from 1-10
+//count all odd number from 1-10
 
-find sum of all odd number from 1-10
+//find sum of all odd number from 1-10
 
-find product of all number fromn a to b.
+//find product of all number fromn a to b.
 
 
 
