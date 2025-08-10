@@ -6,3 +6,7 @@ const user={
     userName:"prabhakar",
     price:199
 }
+function handleObject(anyobject){
+console.log(`username is ${anyobject.userName} and price is ${anyobject.price}`);
+}
+handleObject(user)
