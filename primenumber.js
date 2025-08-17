@@ -2,10 +2,8 @@ const readline = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
 });
-
 readline.question('', num => {
   num = Number(num);
-
   if (num <= 1) {
     console.log("Not Prime");
   } else {
@@ -18,6 +16,5 @@ readline.question('', num => {
     }
     console.log(isPrime ? "Prime" : "Not Prime");
   }
-
   readline.close();
 });
