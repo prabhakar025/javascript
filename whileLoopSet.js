@@ -38,6 +38,8 @@
 //     console.log(i)//2,4,5,6
   
 // }
+// console.log(a)
+// var a=5// undefine
 
 
 
