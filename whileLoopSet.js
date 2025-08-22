@@ -7,7 +7,7 @@
 //         console.log("Even Factor is",i);
 //     }
 //     i++;
-    
+
 // }
 // let n=106
 // for(let i=1; i<=n;i++){
@@ -24,7 +24,7 @@
 
 //     }
 //     console.log(i)//1
-    
+
 // }
 
 
@@ -36,7 +36,7 @@
 //         continue
 //     }
 //     console.log(i)//2,4,5,6
-  
+
 // }
 // console.log(a)
 // var a=5// undefine
@@ -46,5 +46,11 @@
 // ++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //Take a number and display all its digits, 345=>3,4,5
+let n = 324
+while (true) {
+    let last_digit = n % 10//8
 
+    console.log(last_digit);
+    n = parseInt(n/10)
+}
 
