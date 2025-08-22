@@ -33,3 +33,13 @@
 // }
 
 
+const userLoggedIn=true
+const debitcard=true
+const loggedInFromGoogle=false
+const loggedInFromEmail=true
+if(userLoggedIn && debitcard ){
+    console.log("Allow to buy course");
+}
+if (loggedInFromGoogle || loggedInFromEmail) {
+    console.log("User logged In");
+}
