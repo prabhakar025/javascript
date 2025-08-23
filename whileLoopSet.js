@@ -46,11 +46,12 @@
 // ++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //Take a number and display all its digits, 345=>3,4,5
-let n = 324
-while (true) {
-    let last_digit = n % 10//8
+ 
+let n=1254
+let rev=0
 
-    console.log(last_digit);
-    n = parseInt(n/10)
+while () {
+    let last=n%10
+    rev=rev*
 }
-
+let rev=0
