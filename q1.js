@@ -1,4 +1,4 @@
-// Take a number and check if it div by 5 or not 
+// Take a number and check if it div by 5 or not    
 
 let n = 50 
 

@@ -18,4 +18,15 @@ for(let i=0;i<=arr.length-1;i++){
 
 //find all subarray that are palindrom number
 
+
+
+
+
+
+
+
+
+
+
+
 //find count of all subarrays whose sum is less than k

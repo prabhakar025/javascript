@@ -1,0 +1,10 @@
+p=10000
+r=10
+t=5
+si=p*r*t/100
+console.log(si)
+amt=p*(1+r/100)**t
+ci=amt-p
+{
+console.log(ci)
+}
