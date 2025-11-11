@@ -18,4 +18,4 @@ else if(hr>12){
 }
 else if(hr == 12){
     console.log(`${hr}:${min} PM`)
-}
+}   
